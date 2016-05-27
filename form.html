@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Верстка</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="form.css">
+  <script src="jquery-2.2.2.min.js"></script>
+  <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+		<div class="comments-list">
+			
+		</div>
+	<div class="name">
+	    <input type="text" placeholder="Your name">
+	    <small class="required">reqiured</small>
+	    <small class="min">min 2 simb</small>
+	</div>
+	<div class="email">
+	    <input type="email" placeholder="Email">
+	    <small class='required'>reqiured</small>
+	    <small class='invalid'>not valid</small>
+	</div>
+	<div class="message">
+	    <textarea placeholder="Your message"></textarea>
+	    <small class='required'>reqiured</small>
+	    <small class="min">min 10 simb</small>
+	</div>
+	<div class="mark">
+	    <input type="radio" name="mark" value="great">отлично
+		<input type="radio" name="mark" value="good">хорошо
+		<input type="radio" name="mark" value="okey">норм
+		<input type="radio" name="mark" value="bad">плохо
+		<input type="radio" name="mark" value="awful">ужасно
+		<small class='required'>reqiured</small>
+	</div>
+	<br>
+	<button>add comment</button>
+</body>
+</html>

@@ -1,0 +1,44 @@
+small{
+  color: rgb(255, 0, 0);
+  margin: 0;
+  display: none;
+}
+input[type=text],
+input[type=email]{
+	width: 480px;
+	height: 30px;
+	padding: 0 10px;
+	margin-bottom: 10px;
+	border: 1px solid #ccc;
+}
+textarea{
+	width: 480px;
+	padding: 10px;
+	border: 1px solid #ccc;
+}
+.comments-list div:nth-child(2n){
+	background: rgba(0,0,255, 0.1);
+}
+.error-r input,
+.error-r textarea,
+.error-in input,
+.error-in textarea,
+.error-min input,
+.error-min textarea,
+.error-num input,
+.error-num textarea{
+border: 1px solid #ff0000;
+}
+.error-r .required,
+.error-in .invalid,
+.error-min .min,
+.error-num .num{
+  display: inline;
+}
+.red p{
+	color: red;
+}
+.cool
+{
+	color: red;
+}
